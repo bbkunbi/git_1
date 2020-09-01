@@ -9,7 +9,7 @@
 #define PORT 8082 
 #define SA struct sockaddr 
 
-
+//this comment for git change test
 void func(int sockfd) 
 { 
     char buff[MAX]; 
@@ -18,7 +18,7 @@ void func(int sockfd)
 for (;;) 
 { 
 
-  m = write(connfd,"Enter position to check price from 1 to 5:",strlen("Enter position to check price from 1 to 5:"));    //Ask for choice    
+  m = write(connfd,"Enter position to check price from 01 to 05:",strlen("Enter position to check price from 1 to 5:"));    //Ask for choice    
     
      read(connfd, &choice, sizeof(int)); //Read choice
    
